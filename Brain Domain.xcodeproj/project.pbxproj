@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60AD54218F4A2690064C00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60AD54118F4A2690064C00D /* Foundation.framework */; };
+		D60AD54418F4A2690064C00D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60AD54318F4A2690064C00D /* CoreGraphics.framework */; };
+		D60AD54618F4A2690064C00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60AD54518F4A2690064C00D /* UIKit.framework */; };
+		D60AD54C18F4A2690064C00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D60AD54A18F4A2690064C00D /* InfoPlist.strings */; };
+		D60AD54E18F4A2690064C00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AD54D18F4A2690064C00D /* main.m */; };
+		D60AD55218F4A2690064C00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AD55118F4A2690064C00D /* AppDelegate.m */; };
+		D60AD55518F4A2690064C00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60AD55318F4A2690064C00D /* Main.storyboard */; };
+		D60AD55818F4A2690064C00D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AD55718F4A2690064C00D /* FirstViewController.m */; };
+		D60AD55B18F4A2690064C00D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AD55A18F4A2690064C00D /* SecondViewController.m */; };
+		D60AD55D18F4A2690064C00D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60AD55C18F4A2690064C00D /* Images.xcassets */; };
+		D60AD56418F4A2690064C00D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60AD56318F4A2690064C00D /* XCTest.framework */; };
+		D60AD56518F4A2690064C00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60AD54118F4A2690064C00D /* Foundation.framework */; };
+		D60AD56618F4A2690064C00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60AD54518F4A2690064C00D /* UIKit.framework */; };
+		D60AD56E18F4A2690064C00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D60AD56C18F4A2690064C00D /* InfoPlist.strings */; };
+		D60AD57018F4A2690064C00D /* Brain_DomainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AD56F18F4A2690064C00D /* Brain_DomainTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D60AD56718F4A2690064C00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60AD53618F4A2690064C00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60AD53D18F4A2690064C00D;
+			remoteInfo = "Brain Domain";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D60AD53E18F4A2690064C00D /* Brain Domain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Domain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60AD54118F4A2690064C00D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D60AD54318F4A2690064C00D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D60AD54518F4A2690064C00D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D60AD54918F4A2690064C00D /* Brain Domain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brain Domain-Info.plist"; sourceTree = "<group>"; };
+		D60AD54B18F4A2690064C00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D60AD54D18F4A2690064C00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D60AD54F18F4A2690064C00D /* Brain Domain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brain Domain-Prefix.pch"; sourceTree = "<group>"; };
+		D60AD55018F4A2690064C00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D60AD55118F4A2690064C00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D60AD55418F4A2690064C00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60AD55618F4A2690064C00D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D60AD55718F4A2690064C00D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D60AD55918F4A2690064C00D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D60AD55A18F4A2690064C00D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D60AD55C18F4A2690064C00D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D60AD56218F4A2690064C00D /* Brain DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brain DomainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60AD56318F4A2690064C00D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D60AD56B18F4A2690064C00D /* Brain DomainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brain DomainTests-Info.plist"; sourceTree = "<group>"; };
+		D60AD56D18F4A2690064C00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D60AD56F18F4A2690064C00D /* Brain_DomainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Brain_DomainTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60AD53B18F4A2690064C00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AD54418F4A2690064C00D /* CoreGraphics.framework in Frameworks */,
+				D60AD54618F4A2690064C00D /* UIKit.framework in Frameworks */,
+				D60AD54218F4A2690064C00D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60AD55F18F4A2690064C00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AD56418F4A2690064C00D /* XCTest.framework in Frameworks */,
+				D60AD56618F4A2690064C00D /* UIKit.framework in Frameworks */,
+				D60AD56518F4A2690064C00D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60AD53518F4A2690064C00D = {
+			isa = PBXGroup;
+			children = (
+				D60AD54718F4A2690064C00D /* Brain Domain */,
+				D60AD56918F4A2690064C00D /* Brain DomainTests */,
+				D60AD54018F4A2690064C00D /* Frameworks */,
+				D60AD53F18F4A2690064C00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D60AD53F18F4A2690064C00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60AD53E18F4A2690064C00D /* Brain Domain.app */,
+				D60AD56218F4A2690064C00D /* Brain DomainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60AD54018F4A2690064C00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60AD54118F4A2690064C00D /* Foundation.framework */,
+				D60AD54318F4A2690064C00D /* CoreGraphics.framework */,
+				D60AD54518F4A2690064C00D /* UIKit.framework */,
+				D60AD56318F4A2690064C00D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60AD54718F4A2690064C00D /* Brain Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D60AD55018F4A2690064C00D /* AppDelegate.h */,
+				D60AD55118F4A2690064C00D /* AppDelegate.m */,
+				D60AD55318F4A2690064C00D /* Main.storyboard */,
+				D60AD55618F4A2690064C00D /* FirstViewController.h */,
+				D60AD55718F4A2690064C00D /* FirstViewController.m */,
+				D60AD55918F4A2690064C00D /* SecondViewController.h */,
+				D60AD55A18F4A2690064C00D /* SecondViewController.m */,
+				D60AD55C18F4A2690064C00D /* Images.xcassets */,
+				D60AD54818F4A2690064C00D /* Supporting Files */,
+			);
+			path = "Brain Domain";
+			sourceTree = "<group>";
+		};
+		D60AD54818F4A2690064C00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60AD54918F4A2690064C00D /* Brain Domain-Info.plist */,
+				D60AD54A18F4A2690064C00D /* InfoPlist.strings */,
+				D60AD54D18F4A2690064C00D /* main.m */,
+				D60AD54F18F4A2690064C00D /* Brain Domain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D60AD56918F4A2690064C00D /* Brain DomainTests */ = {
+			isa = PBXGroup;
+			children = (
+				D60AD56F18F4A2690064C00D /* Brain_DomainTests.m */,
+				D60AD56A18F4A2690064C00D /* Supporting Files */,
+			);
+			path = "Brain DomainTests";
+			sourceTree = "<group>";
+		};
+		D60AD56A18F4A2690064C00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60AD56B18F4A2690064C00D /* Brain DomainTests-Info.plist */,
+				D60AD56C18F4A2690064C00D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60AD53D18F4A2690064C00D /* Brain Domain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60AD57318F4A2690064C00D /* Build configuration list for PBXNativeTarget "Brain Domain" */;
+			buildPhases = (
+				D60AD53A18F4A2690064C00D /* Sources */,
+				D60AD53B18F4A2690064C00D /* Frameworks */,
+				D60AD53C18F4A2690064C00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brain Domain";
+			productName = "Brain Domain";
+			productReference = D60AD53E18F4A2690064C00D /* Brain Domain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D60AD56118F4A2690064C00D /* Brain DomainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60AD57618F4A2690064C00D /* Build configuration list for PBXNativeTarget "Brain DomainTests" */;
+			buildPhases = (
+				D60AD55E18F4A2690064C00D /* Sources */,
+				D60AD55F18F4A2690064C00D /* Frameworks */,
+				D60AD56018F4A2690064C00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60AD56818F4A2690064C00D /* PBXTargetDependency */,
+			);
+			name = "Brain DomainTests";
+			productName = "Brain DomainTests";
+			productReference = D60AD56218F4A2690064C00D /* Brain DomainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60AD53618F4A2690064C00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Browning Bros";
+				TargetAttributes = {
+					D60AD56118F4A2690064C00D = {
+						TestTargetID = D60AD53D18F4A2690064C00D;
+					};
+				};
+			};
+			buildConfigurationList = D60AD53918F4A2690064C00D /* Build configuration list for PBXProject "Brain Domain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60AD53518F4A2690064C00D;
+			productRefGroup = D60AD53F18F4A2690064C00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60AD53D18F4A2690064C00D /* Brain Domain */,
+				D60AD56118F4A2690064C00D /* Brain DomainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60AD53C18F4A2690064C00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AD55D18F4A2690064C00D /* Images.xcassets in Resources */,
+				D60AD54C18F4A2690064C00D /* InfoPlist.strings in Resources */,
+				D60AD55518F4A2690064C00D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60AD56018F4A2690064C00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AD56E18F4A2690064C00D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60AD53A18F4A2690064C00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AD55B18F4A2690064C00D /* SecondViewController.m in Sources */,
+				D60AD55218F4A2690064C00D /* AppDelegate.m in Sources */,
+				D60AD55818F4A2690064C00D /* FirstViewController.m in Sources */,
+				D60AD54E18F4A2690064C00D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60AD55E18F4A2690064C00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AD57018F4A2690064C00D /* Brain_DomainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60AD56818F4A2690064C00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60AD53D18F4A2690064C00D /* Brain Domain */;
+			targetProxy = D60AD56718F4A2690064C00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D60AD54A18F4A2690064C00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60AD54B18F4A2690064C00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D60AD55318F4A2690064C00D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60AD55418F4A2690064C00D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D60AD56C18F4A2690064C00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60AD56D18F4A2690064C00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60AD57118F4A2690064C00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D60AD57218F4A2690064C00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60AD57418F4A2690064C00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brain Domain/Brain Domain-Prefix.pch";
+				INFOPLIST_FILE = "Brain Domain/Brain Domain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D60AD57518F4A2690064C00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brain Domain/Brain Domain-Prefix.pch";
+				INFOPLIST_FILE = "Brain Domain/Brain Domain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D60AD57718F4A2690064C00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brain Domain.app/Brain Domain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brain Domain/Brain Domain-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brain DomainTests/Brain DomainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D60AD57818F4A2690064C00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brain Domain.app/Brain Domain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brain Domain/Brain Domain-Prefix.pch";
+				INFOPLIST_FILE = "Brain DomainTests/Brain DomainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60AD53918F4A2690064C00D /* Build configuration list for PBXProject "Brain Domain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60AD57118F4A2690064C00D /* Debug */,
+				D60AD57218F4A2690064C00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60AD57318F4A2690064C00D /* Build configuration list for PBXNativeTarget "Brain Domain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60AD57418F4A2690064C00D /* Debug */,
+				D60AD57518F4A2690064C00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D60AD57618F4A2690064C00D /* Build configuration list for PBXNativeTarget "Brain DomainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60AD57718F4A2690064C00D /* Debug */,
+				D60AD57818F4A2690064C00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D60AD53618F4A2690064C00D /* Project object */;
+}
